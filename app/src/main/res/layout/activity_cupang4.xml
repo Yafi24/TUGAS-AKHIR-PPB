@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202B30"
+    android:backgroundTint="#202B30"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".cupang4">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:src="@drawable/cupang4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/xnamaproduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cupang Rainbow"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Cupang ini merupakan primadona bagi pecinta ikan cupang."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Rp 215.000"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:text="Jumlah :"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="50dp"
+            android:text="Total     :"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/jumlah"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="20dp"
+            android:text="1"
+            android:textColor="#2196F3"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/kurang"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:gravity="top"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/tambah"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:gravity="top"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="50dp"
+            android:text="215000"
+            android:textColor="#2196F3"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/tmblProses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/bgbuttonred"
+            android:text="Tambah"
+            android:textColor="@color/colorWhite" />
+    </RelativeLayout>
+
+</LinearLayout>
